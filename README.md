@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+---- INPUT COMPONENT ----
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Challenge: 
 
-## Available Scripts
+    Create a reusable input with all the states in the design and a page displaying all the states. You can work on the same project with other design system challenges. Use Front-end libraries like React or Vue. Don’t look at the existing solution. 
 
-In the project directory, you can run:
+Fulfill user stories below:
 
-### `npm start`
+    User story: I can see error state
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    User story: I can choose to disable input
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    User story: I can choose to have helper text
 
-### `npm test`
+    User story: I can choose to have an icon on the left or right (Use Google Icon and at least 5 variants)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    User story: I can have different input sizes
 
-### `npm run build`
+    User story: I can have different colors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    User story: I can choose to have input take the width of the parent
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    User story: I can have multiline input like a textarea
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    User story: When I hover or focus, I can see visual indicators
 
-### `npm run eject`
+    User story: I can still access all input attributes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    User story (optional): Show input in a similar way like the design or use Storybook. Otherwise, showing the input in multiple states is enough
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Icon: https://google.github.io/material-design-icons/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ---- BUILT WITH REACT ----

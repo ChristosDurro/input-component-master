@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@500&family=Ubuntu+Mono&display=swap');
+.input-type {
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    position: relative;
+}
+
+label {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 12px;
+    margin-bottom: 50px;
+    position: absolute;
+    width: 300px;
+}
+
+
+input {
+    width: 200px;
+    height: 56px;
+    padding: 18px 50px 18px 12px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    color: #828282;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .7px;
+    position: relative;
+    top: 25px;
+}
+
+p {
+    color: #828282;
+    position: relative;
+    top: 30px;
+    font-size: 10px;
+}
+
+/* NORMAL INPUT STYLING */
+
+
+input:hover {
+    border-color: #2962FF;
+}
+
+input:hover + label {
+    color: #2962FF;
+}
+
+input:hover + label + p {
+    color: #2962FF;
+}
+
+
+
+input:focus {
+    border-color: #2962FF;
+    outline: none;
+}
+
+input:focus + label {
+    color: #2962FF;
+}
+
+input:focus + label + p {
+    color: #2962FF;
+}
+
+/* ERROR STYLING */
+
+input:hover.error {
+    border-color: #333333;
+
+}
+
+input:hover.error  + label.error {
+    color: #333333;
+}
+
+input:hover.error  + label.error + p {
+    color: #333333;
+}
+
+input:focus.error {
+    border-color: #D32F2F;
+}
+
+input:focus.error + label.error {
+    color: #D32F2F;
+
+    border-color: #D32F2F;
+    outline: none;
+}
+
+input:focus.error + label.error + p {
+    color: #D32F2F;
+
+    border-color: #D32F2F;
+    outline: none;
+}
+
+.error {
+    border-color: #D32F2F;
+    color: #D32F2F;
+}
+
+/* DISABLED STYLING */
+
+input[disabled] {
+    
+    background-color:#F2F2F2;
+    border-color: #E0E0E0;
+}
+
+input[disabled]:hover {
+    cursor: not-allowed;
+
+    background-color:#F2F2F2;
+    border-color: #E0E0E0;
+} 
+
+input[disabled]:hover + label {
+    color: #333333;
+}
+
+/* HELPERTEXT */
+
+input.error + p {
+    color: #D32F2F;
+
+}
+
+input:hover.error + p {
+    color: #D32F2F;
+}
+
+/* ICON PLACEMENT */
+
+.start-icon:hover {
+    border-color: #333333;
+}
+
+.start-icon:hover + label {
+    color: #333333;
+}
+
+.start-icon:focus {
+    border-color: #333333;
+}
+
+.start-icon:focus + label {
+    color: #333333;
+}
+
+
+.end-icon:hover {
+    border-color: #333333;
+}
+
+.end-icon:hover + label {
+    color: #333333;
+}
+
+.end-icon:focus {
+    border-color: #333333;
+}
+
+.end-icon:focus + label {
+    color: #333333;
+}
+
+#first-start{
+    background-image: url("../../public/images/call.png");
+}
+
+#second-start{
+    background-image: url("../../public/images/attach.png");
+}
+#third-start{
+    background-image: url("../../public/images/open-new-window.png");
+
+}
+
+#first-end{
+    background-image: url("../../public/images/call.png");
+
+}
+#second-end{
+    background-image: url("../../public/images/download.png");
+
+}
+#third-end{
+    background-image: url("../../public/images/mail.png");
+
+}
+
+/* SIZE SECTION */
+
+.sm {
+    height: 40px;
+}
+
+.md {
+    height: 56px;
+}
+
+.lg {
+    height: 72px;
+}
+
+
+/* FULLWIDTH SECTION */
+
+.full-width {
+    width: 100%;
+}
+
+/* TEXTAREA SECTION */
+
+.multiline {
+    
+    width: 200px;
+    padding: 18px 50px 18px 12px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    color: #828282;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .7px;
+    position: relative;
+    top: 25px;
+    resize: none;
+}
+
+
+.multiline:hover {
+    border-color: #333333;
+}
+
+.multiline:focus {
+    outline: none;
+    border-color: #333333;
+}
+
+
+@media screen and (max-width: 768px) {
+    .input-type {
+        margin-top: 25%;
+    }
+  }

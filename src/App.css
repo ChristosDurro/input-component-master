@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@500&family=Ubuntu+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  width: 20%;
+  background-color: #FAFBFD;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav>ul {
+  padding: 10% 0 0 2%;
+  height: 40%;
+  list-style: none;
+  position: fixed;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-items {
+  color: #9E9E9E;
+  font-size: 14px;
+}
+
+.active {
+  color: #090F31;
+  font-weight: 700;
+}
+
+.inputs-section {
+  width: 80%;
+  padding: 2% 5%;
+}
+
+strong {
+  font-size: 24px;
+  color: #4F4F4F;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.helper-text-section {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.helper-text-section>div {
+  margin-right: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.icon-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon-section > div {
+  margin-right: 200px;
+}
+
+.start-icon {
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 25px;
+  padding-left: 50px;
+}
+
+.end-icon {
+  background-repeat: no-repeat;
+  background-position: 95%;
+  background-size: 25px;
+  padding-right: 50px;
+}
+
+.size-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.size-section > div {
+  margin-right: 200px;
+}
+
+.footer {
+  width: 100%;
+  padding: 22px 0;
+  font-size: 14px;
+  color: #9E9E9E;
+}
+
+.footer a {
+  font-weight: bold;
+  color: #9E9E9E;
+}
+
+.footer a:hover {
+  color: #868686;
+}
+
+
+@media screen and (max-width: 768px) {
+  
+  nav {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .inputs-section {
+    width: 100%;
   }
 }
